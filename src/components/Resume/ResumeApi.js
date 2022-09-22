@@ -2,7 +2,7 @@ const ResumeApi = [
   {
     id: 1,
     category: 'education',
-    year: 'Unity University (2017 - 2021',
+    year: 'Unity University (2017 - 2021)',
     title: 'Computer Science',
     desc: 'Activities and societies: Courses I took:- Java, C++, Operating System, Computer Architecture, Database using MySQL, Artificial intelligence, Data structure and Algorithms, Mathematics, Computer Graphics, Computer Security, Wireless Technology, Object-Oriented Programming, Object-oriented Analysis & Design, Network Admin …..etc.',
     rate: 'Grade: 3.48 / 4.0 (Dist.)',
