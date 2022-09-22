@@ -25,9 +25,9 @@ const Header = () => {
               <li><a href="#resume">Resume</a></li>
               <li><a href="#blog">Blog</a></li>
               <li><a href="#contact">Clinet</a></li>
-              <li><button type='button' className="home-btn">BUY NOW</button></li>
+              <li><button type="button" className="home-btn">BUY NOW</button></li>
             </ul>
-            <button type='button' className="toggle" onClick={() => setMobile(!Mobile)}>
+            <button type="button" className="toggle" onClick={() => setMobile(!Mobile)}>
               {Mobile ? <i className="fas fa-times close home-btn" /> : <i className="fas fa-bars open" />}
             </button>
           </div>
