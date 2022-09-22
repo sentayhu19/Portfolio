@@ -76,5 +76,31 @@ header {
 header .link {
     display: none;
 }
+.close, .open {
+    display: block;
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    color: #ff014f;
+    font-size: 25px;
+    z-index: 999;
+}
+.close {
+    right: 45%;
+}
+.close.home-btn{
+    color: #ff014f;
+    border-radius: 50%;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+}
+.header.active{
+    height: 10vh;
+}
     
+}
+.demo {
+    height: 200vh;
 }
