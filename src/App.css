@@ -58,7 +58,6 @@ button {
   transition: 0.3s all ease;
   cursor: pointer;
   color: #000;
-  transition: 0.5s;
   background: linear-gradient(145deg, #e2e8ec, #fff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #fff;
 }
