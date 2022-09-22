@@ -21,7 +21,7 @@ const Card = (props) => {
         <div className='category d_flex'>
           <span onClick={toggleModal}>{props.category}</span>
           <label>
-            <i className='far fa-heart'></i> {props.totalLike}
+          <i class="fa-solid fa-check"></i> {props.tech}
           </label>
         </div>
         <div className='title'>
