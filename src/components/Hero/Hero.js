@@ -10,7 +10,7 @@ const Hero = () => (
   <>
     <section className="hero" id="home">
       <div className="container f_flex top">
-        <div className="left top">
+        <div className="left top" data-aos="slide-left" >
           <h3>WELCOME TO MY WORLD</h3>
           <h1>
             Hi, I'm
@@ -63,7 +63,7 @@ const Hero = () => (
             </div>
           </div>
         </div>
-        <div className="right">
+        <div className="right" data-aos="slide-right" >
           <div className="right_img">
             <img src={men} alt="person-img" />
           </div>

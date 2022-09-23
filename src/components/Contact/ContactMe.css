@@ -54,3 +54,6 @@
       margin-top: 50px;
     }
   }
+#contact-box{
+    box-shadow: 4px 4px 8px #363053, -4px -4px 8px #30305a;
+}
