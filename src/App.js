@@ -4,6 +4,8 @@ import Portfolio from './components/portfolio/Portfolio';
 import Resume from './components/Resume/Resume';
 import Blog from './components/Blog/Blog';
 import './App.css';
+import Contact from './components/Contact/ContactMe';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Portfolio />
       <Resume />
       <Blog />
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
