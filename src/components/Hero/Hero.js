@@ -30,9 +30,7 @@ const Hero = () => (
             </span>
           </h2>
           <p>
-            Develop amazing web and app experiences with tips and advice from
-            the experts at Web.Dev. Build on your web developer knowledge with
-            Web.Dev by reading our useful
+           I graduated from the Unity University with a Bachelor of Science in Computer Science with Honor and from Microverse as full-stack web devloper. I have been working as a full-stack developer. I am passionate about building scalable web applications and I am always looking for new challenges.
           </p>
           <div className="hero_btn d_flex">
             <div className="col_1">
