@@ -20,11 +20,18 @@ const Header = () => {
             {/* <ul className='link f_flex uppercase'> */}
             <ul className={Mobile ? 'nav-links-mobile' : 'link f_flex uppercase'} onClick={() => setMobile(false)}>
               <li><a href="#home">Home</a></li>
-              <li><a href="#">Fetures</a></li>
+              e
               <li><a href="#portfolio">Portfolio</a></li>
               <li><a href="#resume">Resume</a></li>
               <li><a href="#blog">Blog</a></li>
-              <li><button type="button" className="home-btn"><a href='#contact'>Hire Me</a></button></li>
+              <li>
+                <button type="button" className="home-btn">
+                  <a href="https://github.com/sentayhu19" target="_blank" rel="noreferrer">
+                    <i className="fab fa-github" />
+                  </a>
+                </button>
+              </li>
+              <li><button type="button" className="home-btn"><a href="#contact">Hire Me</a></button></li>
             </ul>
             <button type="button" className="toggle" onClick={() => setMobile(!Mobile)}>
               {Mobile ? <i className="fas fa-times close home-btn" /> : <i className="fas fa-bars open" />}

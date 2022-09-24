@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import Header from './components/Head/Header';
 import Hero from './components/Hero/Hero';
 import Portfolio from './components/portfolio/Portfolio';
@@ -21,8 +21,8 @@ function App() {
       <Portfolio />
       <Resume />
       <Blog />
-      <Contact/>
-      <Footer/>
+      <Contact />
+      <Footer />
     </div>
   );
 }

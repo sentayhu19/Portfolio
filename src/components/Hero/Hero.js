@@ -10,7 +10,7 @@ const Hero = () => (
   <>
     <section className="hero" id="home">
       <div className="container f_flex top">
-        <div className="left top" data-aos="slide-left" >
+        <div className="left top" data-aos="slide-left">
           <h3>WELCOME TO MY WORLD</h3>
           <h1>
             Hi, I'm
@@ -30,21 +30,27 @@ const Hero = () => (
             </span>
           </h2>
           <p>
-           I graduated from the Unity University with a Bachelor of Science in Computer Science with Honor and from Microverse as full-stack web devloper. I have been working as a full-stack developer. I am passionate about building scalable web applications and I am always looking for new challenges.
+            I am a software devloper who builds web apps using React, Redux, and Ruby on Rails. I graduated from the Unity University with a Bachelor of Science in Computer Science with Honor and from Microverse as full-stack web devloper. I have been working as a full-stack developer. I am passionate about building scalable web applications and I am always looking for new challenges.
           </p>
           <div className="hero_btn d_flex">
             <div className="col_1">
               <h4>LETS CONNECT</h4>
               <div className="button">
-                <button type="button" className="btn_shadow">
-                  <i className="fab fa-facebook-f" />
-                </button>
-                <button type="button" className="btn_shadow">
-                  <i className="fab fa-instagram" />
-                </button>
-                <button type="button" className="btn_shadow">
-                  <i className="fab fa-linkedin-in" />
-                </button>
+                <a href="https://twitter.com/VoltageBerhanu" target="_blank" rel="noreferrer">
+                  <button type="button" className="btn_shadow">
+                    <i className="fab fa-twitter" />
+                  </button>
+                </a>
+                <a href="https://angel.co/u/sentayhu-berhanu" target="_blank" rel="noreferrer">
+                  <button type="button" className="btn_shadow">
+                    <i className="fab fa-angellist" />
+                  </button>
+                </a>
+                <a href="https://www.linkedin.com/in/sentayhu-berhanu" target="_blank" rel="noreferrer">
+                  <button type="button" className="btn_shadow">
+                    <i className="fab fa-linkedin-in" />
+                  </button>
+                </a>
               </div>
             </div>
             <div className="col_1">
@@ -61,9 +67,9 @@ const Hero = () => (
             </div>
           </div>
         </div>
-        <div className="right" data-aos="slide-right" >
+        <div className="right" data-aos="slide-right">
           <div className="right_img">
-            <img src={men} alt="person-img" />
+            <img src={men} alt="person-img" className="sentayhu" />
           </div>
         </div>
       </div>

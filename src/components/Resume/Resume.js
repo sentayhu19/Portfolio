@@ -9,7 +9,9 @@ const Resume = () => (
       <div className="container top">
         <div className="heading text-center">
           <h1>My Resume</h1>
-          <button className='btn_shadow get-resume'><a href='https://docs.google.com/document/d/1HXIdVXkLU-oQKuBS1719E22hoQ4nzNzJxdM0cb7lxm4/edit?usp=sharing'>Get my full resume</a></button>
+          <a href="https://docs.google.com/document/d/1HXIdVXkLU-oQKuBS1719E22hoQ4nzNzJxdM0cb7lxm4/edit?usp=sharing" target="_blank" rel="noreferrer">
+            <button className="btn_shadow get-resume" data-aos="flip-right">Get my full resume</button>
+          </a>
         </div>
 
         <div className="content-section mtop d_flex">

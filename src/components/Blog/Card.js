@@ -14,7 +14,7 @@ const Card = (props) => {
   }
   return (
     <>
-      <div className="box btn_shadow "data-aos="slide-left">
+      <div className="box btn_shadow " data-aos="slide-left">
         <div className="img">
           <img src={props.image} alt="" onClick={toggleModal} />
         </div>
@@ -48,11 +48,11 @@ const Card = (props) => {
               <h1>{props.title_three}</h1>
               <p>{props.desc_three}</p>
 
-              <button type='button' className="close-modal btn_shadow" onClick={toggleModal}>
+              <button type="button" className="close-modal btn_shadow" onClick={toggleModal}>
                 <i className="fas fa-times" />
               </button>
               <a href={props.link} target="_blank" rel="noreferrer">
-                <button type='button' className="btn_shadow">
+                <button type="button" className="btn_shadow">
                   Read More...
                 </button>
               </a>
@@ -64,7 +64,7 @@ const Card = (props) => {
                     <input type="text" placeholder="Name" required />
                     <input type="email" placeholder="Email" required />
                     <input type="text" placeholder="Website" required />
-                    <button type='button' className="btn_shadow">SUBMIT NOW</button>
+                    <button type="button" className="btn_shadow">SUBMIT NOW</button>
                   </div>
                   <div className="right">
                     <textarea cols="30" rows="12" placeholder="Comment" />
