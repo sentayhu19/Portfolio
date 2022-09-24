@@ -1,4 +1,5 @@
 import React from 'react';
+import { generate } from 'randomized-string';
 import '../portfolio/Portfolio.css';
 import './Blog.css';
 import Card from './Card';
@@ -14,7 +15,20 @@ const Blog = () => (
         </div>
 
         <div className="content grid">
-          {BlogApi.map((value, index) => <Card key={index} image={value.image} date={value.date} title_one={value.title_one} title_two={value.title_two} title_three={value.title_three} desc_one={value.desc_one} desc_two={value.desc_two} desc_three={value.desc_three} link={value.link} />)}
+          {BlogApi.map((value) => (
+            <Card
+              key={generate()}
+              image={value.image}
+              date={value.date}
+              title_one={value.title_one}
+              title_two={value.title_two}
+              title_three={value.title_three}
+              desc_one={value.desc_one}
+              desc_two={value.desc_two}
+              desc_three={value.desc_three}
+              link={value.link}
+            />
+          ))}
         </div>
       </div>
     </section>

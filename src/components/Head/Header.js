@@ -6,7 +6,7 @@ const Header = () => {
   // scrolling header at the top of the page
   window.addEventListener('scroll', () => {
     const header = document.querySelector('.header');
-    header.classList.toggle('sticky', window.scrollY > 100);
+    header.classList.toggle('active', window.scrollY > 100);
   });
   const [Mobile, setMobile] = useState(false);
   return (
@@ -14,13 +14,12 @@ const Header = () => {
       <header className="header">
         <div className="container d_flex">
           <div className="logo">
-            <img src={logo} alt="Logo" className="logo" />
+            <img src={logo} alt="Logo" data-aos="flip-up" className="logo" />
           </div>
           <div className="navlink">
             {/* <ul className='link f_flex uppercase'> */}
             <ul className={Mobile ? 'nav-links-mobile' : 'link f_flex uppercase'} onClick={() => setMobile(false)}>
               <li><a href="#home">Home</a></li>
-              e
               <li><a href="#portfolio">Portfolio</a></li>
               <li><a href="#resume">Resume</a></li>
               <li><a href="#blog">Blog</a></li>
