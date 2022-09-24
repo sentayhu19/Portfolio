@@ -21,7 +21,14 @@
       "no-shadow": "off",
       "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
       "react/jsx-props-no-spreading": "off",
-      "prefer-destructuring":"off"
+      "prefer-destructuring":"off",
+      "react/destructuring-assignment": "off",
+      "react/prop-types": "off",
+      "jsx-a11y/click-events-have-key-events": "off",
+      "array-callback-return": "off",
+      "consistent-return": "off",
+      "max-len": "off"
+
     },
     "ignorePatterns": [
       "dist/",

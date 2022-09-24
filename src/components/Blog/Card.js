@@ -16,7 +16,7 @@ const Card = (props) => {
     <>
       <div className="box btn_shadow " data-aos="slide-left">
         <div className="img">
-          <img src={props.image} alt="" onClick={toggleModal} />
+          <img src={props.image} alt="" onClick={toggleModal} onKeyDown={toggleModal} />
         </div>
         <div className="category d_flex">
           <span onClick={toggleModal}>{props.date}</span>

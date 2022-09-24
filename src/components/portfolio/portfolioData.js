@@ -1,4 +1,4 @@
-const Portfolio_data = [
+const PortfolioData = [
   {
     id: 1,
     category: 'Web site',
@@ -56,4 +56,4 @@ const Portfolio_data = [
     image: 'https://raw.githubusercontent.com/sentayhu19/Portfolio/Portfolio/src/assets/images/project-screenshoot/leaderboard.png',
   },
 ];
-export default Portfolio_data;
+export default PortfolioData;

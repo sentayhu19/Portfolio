@@ -1,4 +1,5 @@
 import React from 'react';
+import { generate } from 'randomized-string';
 import './Resume.css';
 import ResumeApi from './ResumeApi';
 import Card from './Card';
@@ -10,7 +11,7 @@ const Resume = () => (
         <div className="heading text-center">
           <h1>My Resume</h1>
           <a href="https://docs.google.com/document/d/1HXIdVXkLU-oQKuBS1719E22hoQ4nzNzJxdM0cb7lxm4/edit?usp=sharing" target="_blank" rel="noreferrer">
-            <button className="btn_shadow get-resume" data-aos="flip-right">Get my full resume</button>
+            <button type="button" className="btn_shadow get-resume" data-aos="flip-right">Get my full resume</button>
           </a>
         </div>
 
@@ -35,9 +36,9 @@ const Resume = () => (
             </div>
 
             <div className="content">
-              {ResumeApi.map((val, index) => {
+              {ResumeApi.map((val) => {
                 if (val.category === 'experience') {
-                  return <Card key={index} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />;
+                  return <Card key={generate()} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />;
                 }
               })}
             </div>

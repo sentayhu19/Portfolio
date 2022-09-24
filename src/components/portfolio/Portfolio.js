@@ -1,7 +1,8 @@
 import React from 'react';
+import { generate } from 'randomized-string';
 import './Portfolio.css';
 import Card from './Card';
-import Portfolio_data from './portfolioData.js';
+import PortfolioData from './portfolioData';
 
 const Portfolio = () => (
   <>
@@ -13,7 +14,7 @@ const Portfolio = () => (
         </div>
 
         <div className="content grid">
-          {Portfolio_data.map((value, index) => <Card key={index} image={value.image} category={value.category} tech={value.tech} title={value.title} />)}
+          {PortfolioData.map((value) => <Card key={generate()} image={value.image} category={value.category} tech={value.tech} title={value.title} />)}
         </div>
       </div>
     </section>
