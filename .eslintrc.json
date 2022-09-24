@@ -27,7 +27,10 @@
       "jsx-a11y/click-events-have-key-events": "off",
       "array-callback-return": "off",
       "consistent-return": "off",
-      "max-len": "off"
+      "max-len": "off",
+      "react/no-array-index-key": "off",
+      "react/no-unescaped-entities": "off"
+
 
     },
     "ignorePatterns": [

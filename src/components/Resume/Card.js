@@ -9,7 +9,7 @@ const Card = (props) => (
           <span>{props.year}</span>
         </div>
         <div className="rate">
-          <button className="btn_shadow ">{props.rate}</button>
+          <button type='button' className="btn_shadow ">{props.rate}</button>
         </div>
       </div>
       <hr />

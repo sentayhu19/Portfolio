@@ -15,7 +15,10 @@
         }
       ],
       "csstree/validator": false,
-      "declaration-block-no-duplicate-properties": false
+      "declaration-block-no-duplicate-properties": false,
+      "csstree/validator ": false,
+      "no-descending-specificity":false,
+      "no-duplicate-selectors":false,
     },
     "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css", "**/*.js", "**/*.jsx"]
   }
