@@ -11,7 +11,7 @@ const Hero = () => (
     <section className="hero" id="home">
       <div className="container f_flex top">
         <div className="left top" data-aos="slide-left">
-          <h3 className='welcome'>WELCOME TO MY WORLD</h3>
+          <h3 className="welcome">WELCOME TO MY WORLD</h3>
           <h1>
             Hi, I'm
             <span> Sentayhu Berhanu</span>

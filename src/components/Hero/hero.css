@@ -104,10 +104,12 @@
     width: 100%;
     height: 54vh;
   }
-  .welcome{
-  padding-top: 100px;
+
+  .welcome {
+    padding-top: 100px;
   }
-  .sentayhu{
+
+  .sentayhu {
     padding-left: 135px;
   }
 }
