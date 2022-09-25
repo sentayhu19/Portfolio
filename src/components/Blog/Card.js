@@ -14,7 +14,7 @@ const Card = (props) => {
   }
   return (
     <>
-      <div className="box btn_shadow " data-aos="slide-left">
+      <div className="box btn_shadow " data-aos="slide-right">
         <div className="img">
           <img src={props.image} alt="" onClick={toggleModal} onKeyDown={toggleModal} />
         </div>
