@@ -19,7 +19,7 @@ const Hero = () => (
           <h2>
             <span>
               <Typewriter
-                words={['Professional Coder', 'Devloper']}
+                words={['Professional Coder', 'Full-Stack Devloper']}
                 loop
                 cursor
                 cursorStyle="_"

@@ -14,7 +14,18 @@ const Portfolio = () => (
         </div>
 
         <div className="content grid">
-          {PortfolioData.map((value) => <Card key={generate()} image={value.image} category={value.category} tech={value.tech} title={value.title} />)}
+          {PortfolioData.map((value) => (
+            <Card
+              key={generate()}
+              image={value.image}
+              category={value.category}
+              tech={value.tech}
+              title={value.title}
+              seesource={value.seesource}
+              seelive={value.seelive}
+              description={value.description}
+            />
+          ))}
         </div>
       </div>
     </section>
