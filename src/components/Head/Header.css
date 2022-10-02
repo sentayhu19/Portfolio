@@ -3,6 +3,14 @@ header {
   line-height: 10vh;
 }
 
+a:active {
+  color: #ff014f;
+}
+
+.headerlinks{
+cursor: pointer;
+}
+
 header .container {
   padding-top: 15px;
 }

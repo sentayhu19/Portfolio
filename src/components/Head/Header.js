@@ -26,6 +26,7 @@ const Header = () => {
                 {' '}
                 <Link
                   activeClass="active"
+                  className="headerlinks"
                   to="home"
                   spy
                   smooth
@@ -40,6 +41,7 @@ const Header = () => {
                 {' '}
                 <Link
                   activeClass="active"
+                  className="headerlinks"
                   to="portfolio"
                   spy
                   smooth
@@ -54,6 +56,7 @@ const Header = () => {
                 {' '}
                 <Link
                   activeClass="active"
+                  className="headerlinks"
                   to="resume"
                   spy
                   smooth
@@ -68,6 +71,7 @@ const Header = () => {
                 {' '}
                 <Link
                   activeClass="active"
+                  className="headerlinks"
                   to="blog"
                   spy
                   smooth
