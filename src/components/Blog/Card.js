@@ -57,9 +57,10 @@ const Card = (props) => {
                 </button>
               </a>
               <div className="contact mtop">
-                <h1>Leave a Reply</h1>
+                <h1>Leave a Reply
+                  (Under Construction)</h1>
 
-                <form className="blog_contact d_flex">
+                <form action='http::/google.com' method='post' className="blog_contact d_flex">
                   <div className="left">
                     <input type="text" placeholder="Name" required />
                     <input type="email" placeholder="Email" required />
