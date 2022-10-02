@@ -62,7 +62,7 @@ const Card = (props) => {
                   (Under Construction)
                 </h1>
 
-                <form action="http::/google.com" method="post" className="blog_contact d_flex">
+                <form className="blog_contact d_flex">
                   <div className="left">
                     <input type="text" placeholder="Name" required />
                     <input type="email" placeholder="Email" required />
