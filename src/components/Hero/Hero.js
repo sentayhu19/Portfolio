@@ -36,17 +36,17 @@ const Hero = () => (
             <div className="col_1">
               <h4>LETS CONNECT</h4>
               <div className="button">
-                <a href="https://twitter.com/VoltageBerhanu" target="_blank" rel="noreferrer">
+                <a title="Twitter" href="https://twitter.com/VoltageBerhanu" target="_blank" rel="noreferrer">
                   <button type="button" className="btn_shadow">
                     <i className="fab fa-twitter" />
                   </button>
                 </a>
-                <a href="https://angel.co/u/sentayhu-berhanu" target="_blank" rel="noreferrer">
+                <a title="AngelList" href="https://angel.co/u/sentayhu-berhanu" target="_blank" rel="noreferrer">
                   <button type="button" className="btn_shadow">
                     <i className="fab fa-angellist" />
                   </button>
                 </a>
-                <a href="https://www.linkedin.com/in/sentayhu-berhanu" target="_blank" rel="noreferrer">
+                <a title="LinkedIn" href="https://www.linkedin.com/in/sentayhu-berhanu" target="_blank" rel="noreferrer">
                   <button type="button" className="btn_shadow">
                     <i className="fab fa-linkedin-in" />
                   </button>
@@ -55,13 +55,13 @@ const Hero = () => (
             </div>
             <div className="col_1">
               <h4>BEST SKILL ON </h4>
-              <button type="button" className="btn_shadow">
+              <button title="JavaScript" type="button" className="btn_shadow">
                 <img src={javascript} alt="skil" />
               </button>
-              <button type="button" className="btn_shadow">
+              <button title="React" type="button" className="btn_shadow">
                 <img src={react} alt="skil" />
               </button>
-              <button type="button" className="btn_shadow">
+              <button title="Ruby on Rails" type="button" className="btn_shadow">
                 <img src={rails} alt="skil" />
               </button>
             </div>
