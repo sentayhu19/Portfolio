@@ -15,7 +15,9 @@ const Header = () => {
       <header className="header">
         <div className="container d_flex">
           <div className="logo">
-            <img src={logo} alt="Logo" data-aos="flip-up" className="logo" />
+            <a href="#home">
+              <img src={logo} alt="Logo" data-aos="flip-up" className="logo" />
+            </a>
           </div>
           <div className="navlink">
             <ul
