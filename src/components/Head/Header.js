@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import { Link } from "react-scroll";
-import "./Header.css";
-import logo from "../../assets/images/logo.png";
+import React, { useState } from 'react';
+import { Link } from 'react-scroll';
+import './Header.css';
+import logo from '../../assets/images/logo.png';
 
 const Header = () => {
   // scrolling header at the top of the page
-  window.addEventListener("scroll", () => {
-    const header = document.querySelector(".header");
-    header.classList.toggle("active", window.scrollY > 100);
+  window.addEventListener('scroll', () => {
+    const header = document.querySelector('.header');
+    header.classList.toggle('active', window.scrollY > 100);
   });
   const [Mobile, setMobile] = useState(false);
   return (
@@ -19,11 +19,11 @@ const Header = () => {
           </div>
           <div className="navlink">
             <ul
-              className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"}
+              className={Mobile ? 'nav-links-mobile' : 'link f_flex uppercase'}
               onClick={() => setMobile(false)}
             >
               <li>
-                {" "}
+                {' '}
                 <Link
                   activeClass="active"
                   to="home"
@@ -32,12 +32,12 @@ const Header = () => {
                   offset={50}
                   duration={500}
                 >
-                  {" "}
+                  {' '}
                   Home
                 </Link>
               </li>
               <li>
-                {" "}
+                {' '}
                 <Link
                   activeClass="active"
                   to="portfolio"
@@ -46,12 +46,12 @@ const Header = () => {
                   offset={-150}
                   duration={500}
                 >
-                  {" "}
+                  {' '}
                   Portfolio
                 </Link>
               </li>
               <li>
-                {" "}
+                {' '}
                 <Link
                   activeClass="active"
                   to="resume"
@@ -60,12 +60,12 @@ const Header = () => {
                   offset={-140}
                   duration={500}
                 >
-                  {" "}
+                  {' '}
                   Resume
                 </Link>
               </li>
               <li>
-                {" "}
+                {' '}
                 <Link
                   activeClass="active"
                   to="blog"
@@ -74,7 +74,7 @@ const Header = () => {
                   offset={-140}
                   duration={500}
                 >
-                  {" "}
+                  {' '}
                   Blog
                 </Link>
               </li>
