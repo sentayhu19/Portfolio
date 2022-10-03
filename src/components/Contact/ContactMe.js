@@ -22,7 +22,7 @@ const Contact = () => (
                 <p className="gradient__text">I am available for work. Connect with me via and call in to my account.</p>
                 {' '}
                 <br />
-                <p className="gradient__text">Email: sentayhuberhanu@example.com</p>
+                <p className="gradient__text">Email: sentayhuberhanu@gmail.com</p>
                 {' '}
                 <br />
                 <span className="lets-connect">LETS CONNECT</span>
