@@ -176,3 +176,10 @@ footer p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@media (max-width: 768px) {
+
+  .top {
+    margin-top: 0px;
+  }
+}

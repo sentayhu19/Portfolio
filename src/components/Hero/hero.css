@@ -90,6 +90,10 @@
     margin-left: 20px;
   }
 
+  .top {
+    margin-top: 0px;
+  }
+
   .hero .f_flex {
     flex-direction: column;
     flex-direction: column-reverse;
