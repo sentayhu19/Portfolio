@@ -4,7 +4,6 @@ import { Typewriter } from 'react-simple-typewriter';
 import javascript from '../../assets/images/javascript.svg';
 import react from '../../assets/images/react.png';
 import rails from '../../assets/images/ruby-on-rails.svg';
-import men from '../../assets/images/men.jpg';
 
 const Hero = () => (
   <>
@@ -67,11 +66,7 @@ const Hero = () => (
             </div>
           </div>
         </div>
-        <div className="right" data-aos="slide-right">
-          <div className="right_img">
-            <img src={men} alt="person-img" className="sentayhu" />
-          </div>
-        </div>
+
       </div>
     </section>
   </>

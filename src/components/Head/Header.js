@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import './Header.css';
 import logo from '../../assets/images/logo.png';
+import men from '../../assets/images/men.jpg';
 
 const Header = () => {
   // scrolling header at the top of the page
@@ -14,8 +15,15 @@ const Header = () => {
     <>
       <header className="header">
         <div className="container d_flex">
-          <div className="logo">
-            <a href="#home">
+          <div className="logo-wrap">
+            <a href="#home" className="logo-link">
+              <div className="outer-circle circle circle-5">
+                <span className="sq sq-1" />
+                <span className="inner-circle circle">
+                  <img src={men} alt="person-img" className="sentayhu" />
+                </span>
+                <span className="sq sq-2" />
+              </div>
               <img src={logo} alt="Logo" data-aos="flip-up" className="logo" />
             </a>
           </div>

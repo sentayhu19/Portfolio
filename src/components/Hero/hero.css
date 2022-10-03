@@ -7,11 +7,6 @@
   letter-spacing: 2px;
 }
 
-.sentayhu {
-  margin-left: 100px;
-  height: 720px;
-}
-
 .hero h1 {
   font-size: 60px;
   font-weight: bold;
@@ -107,9 +102,5 @@
 
   .welcome {
     padding-top: 100px;
-  }
-
-  .sentayhu {
-    padding-left: 135px;
   }
 }

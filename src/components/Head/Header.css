@@ -7,6 +7,20 @@ a:active {
   color: #ff014f;
 }
 
+.sentayhu {
+padding-right: 32%;
+}
+
+.logo-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-wrap{
+margin-top: 10px;
+}
+
 .headerlinks{
 cursor: pointer;
 }
@@ -129,3 +143,59 @@ header ul li a:hover {
 .demo {
   height: 200vh;
 }
+/* ***************************Photo animation with CSS [Start] ********************* */
+
+.circle-5 .sq-1 {
+  top: -5%;
+  right: 0;
+  transition: max-height 0.4s ease-out;
+}
+.circle-5 .sq-2 {
+  top: -5%;
+  left: 0;
+  transition: max-height 0.4s linear;
+}
+
+.outer-circle:hover .sq {
+  max-height: 130%;
+}
+.sq {
+  position: absolute;
+  width: 50%;
+  height: 120%;
+  max-height: 0;
+  background: #ff014f;
+}
+
+.inner-circle img {
+  width: 90px;
+  background-size: cover;
+}
+
+.inner-circle {
+  width: 75px;
+  height: 75px;
+  border: 3px solid #fff;
+  box-shadow: 0px 0px 3px 2px #dddada inset;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.outer-circle {
+  width: 80px;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 4px rgb(77, 77, 77, 0.46);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
