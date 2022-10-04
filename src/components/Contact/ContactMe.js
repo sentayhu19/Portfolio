@@ -63,7 +63,7 @@ const Contact = () => (
               <div className="input">
                 <textarea cols="30" rows="10" name="message" required placeholder="Your Message" />
               </div>
-              <button type="button" className="btn_shadow form-button" id="contact-box">
+              <button type="submit" className="btn_shadow form-button" id="contact-box">
                 SEND MESSAGE
                 {' '}
                 <i className="fa fa-long-arrow-right" />
