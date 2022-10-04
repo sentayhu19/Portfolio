@@ -4,14 +4,13 @@ import { Typewriter } from 'react-simple-typewriter';
 import javascript from '../../assets/images/javascript.svg';
 import react from '../../assets/images/react.png';
 import rails from '../../assets/images/ruby-on-rails.svg';
-import men from '../../assets/images/men.jpg';
 
 const Hero = () => (
   <>
     <section className="hero" id="home">
-      <div className="container f_flex top">
-        <div className="left top">
-          <h3>WELCOME TO MY WORLD</h3>
+      <div className="container top">
+        <div className="left hero-left top" data-aos="slide-left">
+          <h3 className="welcome">WELCOME TO MY WORLD</h3>
           <h1>
             Hi, I'm
             <span> Sentayhu Berhanu</span>
@@ -19,7 +18,7 @@ const Hero = () => (
           <h2>
             <span>
               <Typewriter
-                words={['Professional Coder', 'Devloper']}
+                words={['Professional Coder', 'Full-Stack Developer']}
                 loop
                 cursor
                 cursorStyle="_"
@@ -30,44 +29,44 @@ const Hero = () => (
             </span>
           </h2>
           <p>
-            Develop amazing web and app experiences with tips and advice from
-            the experts at Web.Dev. Build on your web developer knowledge with
-            Web.Dev by reading our useful
+            I am a software developer who builds web apps using React, Redux, and Ruby on Rails. I graduated from Unity University with a Bachelor of Science in Computer Science with Honors and from Microverse as a full-stack web developer. I have been working as a full-stack developer. I am passionate about building scalable web applications and I am always looking for new challenges.
           </p>
           <div className="hero_btn d_flex">
             <div className="col_1">
               <h4>LETS CONNECT</h4>
               <div className="button">
-                <button type="button" className="btn_shadow">
-                  <i className="fab fa-facebook-f" />
-                </button>
-                <button type="button" className="btn_shadow">
-                  <i className="fab fa-instagram" />
-                </button>
-                <button type="button" className="btn_shadow">
-                  <i className="fab fa-linkedin-in" />
-                </button>
+                <a title="Twitter" href="https://twitter.com/VoltageBerhanu" target="_blank" rel="noreferrer">
+                  <button type="button" className="btn_shadow">
+                    <i className="fab fa-twitter" />
+                  </button>
+                </a>
+                <a title="AngelList" href="https://angel.co/u/sentayhu-berhanu" target="_blank" rel="noreferrer">
+                  <button type="button" className="btn_shadow">
+                    <i className="fab fa-angellist" />
+                  </button>
+                </a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/sentayhu-berhanu" target="_blank" rel="noreferrer">
+                  <button type="button" className="btn_shadow">
+                    <i className="fab fa-linkedin-in" />
+                  </button>
+                </a>
               </div>
             </div>
             <div className="col_1">
               <h4>BEST SKILL ON </h4>
-              <button type="button" className="btn_shadow">
+              <button title="JavaScript" type="button" className="btn_shadow">
                 <img src={javascript} alt="skil" />
               </button>
-              <button type="button" className="btn_shadow">
+              <button title="React" type="button" className="btn_shadow">
                 <img src={react} alt="skil" />
               </button>
-              <button type="button" className="btn_shadow">
+              <button title="Ruby on Rails" type="button" className="btn_shadow">
                 <img src={rails} alt="skil" />
               </button>
             </div>
           </div>
         </div>
-        <div className="right">
-          <div className="right_img">
-            <img src={men} alt="person-img" />
-          </div>
-        </div>
+
       </div>
     </section>
   </>

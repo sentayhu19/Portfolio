@@ -14,11 +14,11 @@ const Card = (props) => {
   }
   return (
     <>
-      <div className="box btn_shadow ">
+      <div className="box btn_shadow width" data-aos="slide-up">
         <div className="img">
           <img src={props.image} alt="project screenshoot" onClick={toggleModal} />
         </div>
-        <div className="category d_flex">
+        <div className="category d_flex flex-dir">
           <span onClick={toggleModal}>{props.category}</span>
           <label>
             <i className="fa-solid fa-check" />
@@ -45,20 +45,27 @@ const Card = (props) => {
             <div className="modal-text right">
               <span>Featured - Design</span>
               <h1>{props.title}</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.</p>
-              <p>Consectetur adipisicing elit. Cupiditate distinctio assumenda. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!</p>
+              <p>
+                {props.description}
+                {' '}
+              </p>
               <div className="button f_flex mtop">
-                <button className="btn_shadow">
-                  LIKE THIS
-                  {' '}
-                  <i className="far fa-thumbs-up" />
-                </button>
-                <button className="btn_shadow">
-                  VIEW PROJECT
-                  <i className="fas fa-chevron-right" />
-                </button>
+                <a href={props.seelive} target="_blank" rel="noreferrer" className="btn btn-primary">
+                  <button type="button" className="btn_shadow">
+                    SEE LIVE
+                    <i className="fas fa-arrow-right" />
+
+                  </button>
+                </a>
+
+                <a href={props.seesource} target="_blank" rel="noreferrer" className="btn btn-secondary">
+                  <button type="button" className="btn_shadow">
+                    SEE CODE
+                    <i className="fab fa-github" />
+                  </button>
+                </a>
               </div>
-              <button className="close-modal btn_shadow" onClick={toggleModal}>
+              <button type="button" className="close-modal btn_shadow" onClick={toggleModal}>
                 <i className="fas fa-times" />
               </button>
             </div>
