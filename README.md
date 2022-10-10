@@ -8,9 +8,9 @@ This is my portfolio site to provide with a personal record of my success or imp
 
 
 
-## Live demo comming soon
+## Live Link
 
-[Live Demo comming soon...]()
+[Live Link](sentayhu-berhanu.netlify.app/)
 
 ## Built With
 
