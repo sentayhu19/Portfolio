@@ -82,12 +82,12 @@ const PortfolioData = [
   {
     id: 9,
     category: 'Web app',
-    tech: 'JavaScript',
-    title: 'Leaderboard',
-    image: 'https://raw.githubusercontent.com/sentayhu19/Portfolio/Portfolio/src/assets/images/project-screenshoot/leaderboard.png',
-    description: 'JavaScript project for building the Leaderboard list app that accepts and shows the name and Score of players around the world . All data is preserved in external API which is the Leaderboard API.',
-    seelive: 'https://sentayhu19.github.io/Leaderboard/dist/index.html',
-    seesource: 'https://github.com/sentayhu19/Leaderboard',
+    tech: 'Vue.js | Tailwindcss',
+    title: 'Apple-UI-Clone-Design',
+    image: 'https://raw.githubusercontent.com/sentayhu19/Portfolio/dev/src/assets/images/project-screenshoot/apple-ui.png',
+    description: 'his project is a clone of the user interface on Apple website, built using Vue.js and Tailwind CSS. The goal of the project is to recreate the look and feel of the original site as closely as possible.',
+    seelive: 'apple-sentayhu.vercel.app/',
+    seesource: 'https://github.com/sentayhu19/Apple-UI-Clone-Design',
   },
   
 ];
