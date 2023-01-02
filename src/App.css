@@ -145,11 +145,11 @@ footer p {
     grid-gap: 15px;
   }
 
-  .width{
+  .width {
     width: 98%;
   }
-  
-  .flex-dir{
+
+  .flex-dir {
     flex-direction: column;
   }
 
@@ -187,8 +187,7 @@ footer p {
 }
 
 @media (max-width: 768px) {
-
   .top {
-    margin-top: 0px;
+    margin-top: 0;
   }
 }

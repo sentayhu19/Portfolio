@@ -89,6 +89,6 @@ const PortfolioData = [
     seelive: 'apple-sentayhu.vercel.app/',
     seesource: 'https://github.com/sentayhu19/Apple-UI-Clone-Design',
   },
-  
+
 ];
 export default PortfolioData;

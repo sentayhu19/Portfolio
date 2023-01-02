@@ -8,22 +8,22 @@ a:active {
 }
 
 .sentayhu {
-padding-right: 32%;
+  padding-right: 32%;
 }
 
-.logo-link{
+.logo-link {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: -22px;
 }
 
-.logo-wrap{
-margin-top: 10px;
+.logo-wrap {
+  margin-top: 10px;
 }
 
-.headerlinks{
-cursor: pointer;
+.headerlinks {
+  cursor: pointer;
 }
 
 header .container {
@@ -144,6 +144,7 @@ header ul li a:hover {
 .demo {
   height: 200vh;
 }
+
 /* ***************************Photo animation with CSS [Start] ********************* */
 
 .circle-5 .sq-1 {
@@ -151,6 +152,7 @@ header ul li a:hover {
   right: 0;
   transition: max-height 0.4s ease-out;
 }
+
 .circle-5 .sq-2 {
   top: -5%;
   left: 0;
@@ -160,6 +162,7 @@ header ul li a:hover {
 .outer-circle:hover .sq {
   max-height: 130%;
 }
+
 .sq {
   position: absolute;
   width: 50%;
@@ -177,7 +180,7 @@ header ul li a:hover {
   width: 75px;
   height: 75px;
   border: 3px solid #fff;
-  box-shadow: 0px 0px 3px 2px #dddada inset;
+  box-shadow: 0 0 3px 2px #dddada inset;
   z-index: 1;
   overflow: hidden;
 }
@@ -186,7 +189,7 @@ header ul li a:hover {
   width: 80px;
   height: 80px;
   background: rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 3px 4px rgb(77, 77, 77, 0.46);
+  box-shadow: 0 3px 4px rgb(77, 77, 77, 0.46);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -198,5 +201,3 @@ header ul li a:hover {
   overflow: hidden;
   cursor: pointer;
 }
-
-

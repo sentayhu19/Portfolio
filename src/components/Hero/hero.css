@@ -12,7 +12,7 @@
   font-weight: bold;
 }
 
-.hero-left{
+.hero-left {
   margin-left: 15%;
 }
 
@@ -96,7 +96,7 @@
   }
 
   .top {
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .hero .f_flex {
