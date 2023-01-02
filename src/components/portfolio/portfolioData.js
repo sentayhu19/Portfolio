@@ -79,5 +79,16 @@ const PortfolioData = [
     seelive: 'https://sentayhu19.github.io/Leaderboard/dist/index.html',
     seesource: 'https://github.com/sentayhu19/Leaderboard',
   },
+  {
+    id: 9,
+    category: 'Web app',
+    tech: 'JavaScript',
+    title: 'Leaderboard',
+    image: 'https://raw.githubusercontent.com/sentayhu19/Portfolio/Portfolio/src/assets/images/project-screenshoot/leaderboard.png',
+    description: 'JavaScript project for building the Leaderboard list app that accepts and shows the name and Score of players around the world . All data is preserved in external API which is the Leaderboard API.',
+    seelive: 'https://sentayhu19.github.io/Leaderboard/dist/index.html',
+    seesource: 'https://github.com/sentayhu19/Leaderboard',
+  },
+  
 ];
 export default PortfolioData;
