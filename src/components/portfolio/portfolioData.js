@@ -86,7 +86,7 @@ const PortfolioData = [
     title: 'Apple-UI-Clone-Design',
     image: 'https://raw.githubusercontent.com/sentayhu19/Portfolio/dev/src/assets/images/project-screenshoot/apple-ui.png',
     description: 'his project is a clone of the user interface on Apple website, built using Vue.js and Tailwind CSS. The goal of the project is to recreate the look and feel of the original site as closely as possible.',
-    seelive: 'apple-sentayhu.vercel.app/',
+    seelive: 'https://apple-sentayhu.vercel.app/',
     seesource: 'https://github.com/sentayhu19/Apple-UI-Clone-Design',
   },
 
