@@ -51,7 +51,7 @@
 }
 
 .hero_btn button {
-  margin-right: 30px;
+  margin-right: 49px;
 }
 
 .hero_btn i {
@@ -59,7 +59,6 @@
 }
 
 .hero_btn button img {
-  width: 20px;
   height: 20px;
 }
 
@@ -111,5 +110,13 @@
 
   .welcome {
     padding-top: 100px;
+  }
+  .best-skill{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .d_flex_mob {
+    flex-direction: column;
   }
 }

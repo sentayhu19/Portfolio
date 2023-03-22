@@ -4,6 +4,11 @@ import { Typewriter } from 'react-simple-typewriter';
 import javascript from '../../assets/images/javascript.svg';
 import react from '../../assets/images/react.png';
 import rails from '../../assets/images/ruby-on-rails.svg';
+import nodejs from '../../assets/images/nodejs.svg';
+import tailwind from '../../assets/images/tailwind.svg';
+import redux from '../../assets/images/redux.svg';
+import express from '../../assets/images/express.svg';
+import mongodb from '../../assets/images/mongodb.svg';
 
 const Hero = () => (
   <>
@@ -31,7 +36,7 @@ const Hero = () => (
           <p>
             I am a software developer who builds web apps using React, Redux, and Ruby on Rails. I graduated from Unity University with a Bachelor of Science in Computer Science with Honors and from Microverse as a full-stack web developer. I have been working as a full-stack developer. I am passionate about building scalable web applications and I am always looking for new challenges.
           </p>
-          <div className="hero_btn d_flex">
+          <div className="hero_btn d_flex d_flex_mob">
             <div className="col_1">
               <h4>LETS CONNECT</h4>
               <div className="button">
@@ -54,15 +59,32 @@ const Hero = () => (
             </div>
             <div className="col_1">
               <h4>BEST SKILL ON </h4>
-              <button title="JavaScript" type="button" className="btn_shadow">
-                <img src={javascript} alt="skil" />
-              </button>
-              <button title="React" type="button" className="btn_shadow">
-                <img src={react} alt="skil" />
-              </button>
-              <button title="Ruby on Rails" type="button" className="btn_shadow">
-                <img src={rails} alt="skil" />
-              </button>
+              <div className="best-skill">
+                <button title="JavaScript" type="button" className="btn_shadow">
+                  <img src={javascript} alt="skil" />
+                </button>
+                <button title="React" type="button" className="btn_shadow">
+                  <img src={react} alt="skil" />
+                </button>
+                <button title="Ruby on Rails" type="button" className="btn_shadow">
+                  <img src={rails} alt="skil" />
+                </button>
+                <button title="NodeJS" type="button" className="btn_shadow">
+                  <img src={nodejs} alt="skil" />
+                </button>
+                <button title="Tailwind CSS" type="button" className="btn_shadow">
+                  <img src={tailwind} alt="skil" />
+                </button>
+                <button title="Redux" type="button" className="btn_shadow">
+                  <img src={redux} alt="skil" />
+                </button>
+                <button title="Express" type="button" className="btn_shadow">
+                  <img src={express} alt="skil" />
+                </button>
+                <button title="MongoDB" type="button" className="btn_shadow">
+                  <img src={mongodb} alt="skil" />
+                </button>
+              </div>
             </div>
           </div>
         </div>
