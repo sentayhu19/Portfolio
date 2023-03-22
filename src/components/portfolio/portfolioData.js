@@ -1,6 +1,16 @@
 const PortfolioData = [
   {
     id: 1,
+    category: 'Web app',
+    tech: 'React | Redux | PostgreSQL | Node.js | Express.js | TailwindCSS',
+    title: 'easternlightpharma.com',
+    image: 'https://raw.githubusercontent.com/sentayhu19/Portfolio/Portfolio/src/assets/images/project-screenshoot/easternlight.png',
+    description: 'A web app built with PERN stack for Eastern light Pharmaceutical and bio medical wholesaler that helps them to post there products and make uses to see the details of the products.',
+    seelive: 'https://easternlightpharma.com/',
+    seesource: 'https://github.com/sentayhu19/Eastern-light-web',
+  },
+  {
+    id: 2,
     category: 'Web site',
     tech: 'React',
     title: 'Cloud App',
@@ -10,7 +20,7 @@ const PortfolioData = [
     seesource: 'https://github.com/sentayhu19/Cloud-app-with-tailwind',
   },
   {
-    id: 2,
+    id: 3,
     category: 'Web site',
     tech: 'JavaScript | HTML | CSS',
     title: ' ShowBox Movies.',
@@ -20,7 +30,7 @@ const PortfolioData = [
     seesource: 'https://github.com/sentayhu19/Movie-Database',
   },
   {
-    id: 3,
+    id: 4,
     category: 'Node package',
     tech: 'TypeScript',
     title: 'Random String Generator Package',
@@ -30,7 +40,7 @@ const PortfolioData = [
     seesource: 'https://github.com/Dagic-zewdu/random-string',
   },
   {
-    id: 4,
+    id: 5,
     category: 'web site',
     tech: 'React',
     title: 'Covid-19 info Tracker',
@@ -40,7 +50,7 @@ const PortfolioData = [
     seesource: 'https://github.com/sentayhu19/COVID-19-data-app',
   },
   {
-    id: 5,
+    id: 6,
     category: 'WEB app',
     tech: 'PHP | HTML | CSS | JavaScript',
     title: 'E-voting system for ethiopia',
@@ -50,7 +60,7 @@ const PortfolioData = [
     seesource: 'https://github.com/sentayhu19/E-voting-system-for-Ethiopia',
   },
   {
-    id: 6,
+    id: 7,
     category: 'Web app',
     tech: 'React Firebase',
     title: 'Arada Chat',
@@ -60,7 +70,7 @@ const PortfolioData = [
     seesource: 'https://github.com/sentayhu19/Arada-chat',
   },
   {
-    id: 7,
+    id: 8,
     category: 'Web app',
     tech: 'React',
     title: 'Bookstore',
@@ -70,7 +80,7 @@ const PortfolioData = [
     seesource: 'https://github.com/sentayhu19/Bookstore',
   },
   {
-    id: 8,
+    id: 9,
     category: 'Web app',
     tech: 'JavaScript',
     title: 'Leaderboard',
@@ -80,7 +90,7 @@ const PortfolioData = [
     seesource: 'https://github.com/sentayhu19/Leaderboard',
   },
   {
-    id: 9,
+    id: 10,
     category: 'Web site',
     tech: 'Vue.js | Tailwindcss',
     title: 'Apple UI-Clone',
