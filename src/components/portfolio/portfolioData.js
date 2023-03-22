@@ -4,7 +4,7 @@ const PortfolioData = [
     category: 'Web app',
     tech: 'React | Redux | PostgreSQL | Node.js | Express.js | TailwindCSS',
     title: 'easternlightpharma.com',
-    image: 'https://raw.githubusercontent.com/sentayhu19/Portfolio/Portfolio/src/assets/images/project-screenshoot/easternlight.png',
+    image: 'https://raw.githubusercontent.com/sentayhu19/Portfolio/dev/src/assets/images/project-screenshoot/easternlight2.png',
     description: 'A web app built with PERN stack for Eastern light Pharmaceutical and bio medical wholesaler that helps them to post there products and make uses to see the details of the products.',
     seelive: 'https://easternlightpharma.com/',
     seesource: 'https://github.com/sentayhu19/Eastern-light-web',
