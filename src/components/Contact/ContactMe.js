@@ -24,7 +24,7 @@ const Contact = () => (
                 <br />
                 <p className="gradient__text">
                   Email:
-                  <a href="mailto:sentayhuberhanu19@gmail.com" className="email__hover"> sentayhuberhanu@gmail.com</a>
+                  <a href="mailto:sentayhuberhanu19@gmail.com" className="email__hover"> sentayhuberhanu19@gmail.com</a>
                 </p>
                 {' '}
                 <br />

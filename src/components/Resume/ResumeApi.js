@@ -26,9 +26,9 @@ const ResumeApi = [
   {
     id: 5,
     category: 'experience',
-    year: 'Microverse (2022 - Present) ',
-    title: 'Profestional Project Reviewer',
-    desc: "Provide high-quality, consistent, and timely reviews of a student's professional skills projects.Helping students by giving them support and creative ideas.",
+    year: 'Microverse (2022 - 2023) ',
+    title: 'Project Reviewer',
+    desc: 'Provide high-quality, consistent, and timely reviews of a students professional skills projects.Helping students by giving them support and creative ideas.',
     rate: '',
   },
 ];

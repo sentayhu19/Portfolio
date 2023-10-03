@@ -62,7 +62,7 @@ const Header = () => {
                   Portfolio
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 {' '}
                 <Link
                   activeClass="active"
@@ -76,7 +76,7 @@ const Header = () => {
                   {' '}
                   Resume
                 </Link>
-              </li>
+              </li> */}
               <li>
                 {' '}
                 <Link

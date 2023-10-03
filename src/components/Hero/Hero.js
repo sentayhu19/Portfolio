@@ -34,7 +34,7 @@ const Hero = () => (
             </span>
           </h2>
           <p>
-            I am a software developer who builds web apps using React, Redux, and Ruby on Rails. I graduated from Unity University with a Bachelor of Science in Computer Science with Honors and from Microverse as a full-stack web developer. I have been working as a full-stack developer. I am passionate about building scalable web applications and I am always looking for new challenges.
+            I am a software developer who builds web and mobile apps using React, Redux,ReactNative, NextJs, VueJS, and ExpressJS. I graduated from Unity University with a Bachelor of Science in Computer Science with Honors and from Microverse as a full-stack web developer. I have been working as a full-stack developer. I am passionate about building scalable web applications and I am always looking for new challenges.
           </p>
           <div className="hero_btn d_flex d_flex_mob">
             <div className="col_1">
