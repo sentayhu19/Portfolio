@@ -12,6 +12,10 @@ const Card = (props) => {
   } else {
     document.body.classList.remove('active-modal');
   }
+
+  const hasLiveLink = props.seelive && props.seelive !== '#';
+  const hasSourceLink = props.seesource && props.seesource !== '#';
+
   return (
     <>
       <div className="box btn_shadow width" data-aos="slide-up">
@@ -34,40 +38,63 @@ const Card = (props) => {
         </div>
       </div>
 
-      {/* Popup box */}
+      {/* Modern Modal */}
       {modal && (
         <div className="modal">
           <div onClick={toggleModal} className="overlay" />
-          <div className="modal-content d_flex">
-            <div className="modal-img left">
-              <img src={props.image} alt="" />
-            </div>
-            <div className="modal-text right">
-              <span>Featured - Design</span>
-              <h1>{props.title}</h1>
-              <p>
-                {props.description}
-                {' '}
-              </p>
-              <div className="button f_flex mtop">
-                <a href={props.seelive} target="_blank" rel="noreferrer" className="btn btn-primary">
-                  <button type="button" className="btn_shadow">
-                    SEE LIVE
-                    <i className="fas fa-arrow-right" />
-
-                  </button>
-                </a>
-
-                <a href={props.seesource} target="_blank" rel="noreferrer" className="btn btn-secondary">
-                  <button type="button" className="btn_shadow">
-                    SEE CODE
-                    <i className="fab fa-github" />
-                  </button>
-                </a>
+          <div className="modal-content modern-modal">
+            <div className="modal-header">
+              <div className="modal-title-section">
+                <span className="modal-category">{props.category}</span>
+                <h1 className="modal-title">{props.title}</h1>
               </div>
-              <button type="button" className="close-modal btn_shadow" onClick={toggleModal}>
+              <button type="button" className="close-modal" onClick={toggleModal}>
                 <i className="fas fa-times" />
               </button>
+            </div>
+
+            <div className="modal-body">
+              <div className="modal-image">
+                <img src={props.image} alt={props.title} />
+              </div>
+
+              <div className="modal-info">
+                <div className="tech-stack">
+                  <h3>Tech Stack</h3>
+                  <p>{props.tech}</p>
+                </div>
+
+                <div className="description">
+                  <h3>About Project</h3>
+                  <p>{props.description}</p>
+                </div>
+
+                <div className="modal-actions">
+                  {hasLiveLink ? (
+                    <a href={props.seelive} target="_blank" rel="noreferrer" className="btn btn-primary">
+                      <i className="fas fa-external-link-alt" />
+                      See Live
+                    </a>
+                  ) : (
+                    <div className="btn btn-disabled">
+                      <i className="fas fa-link-slash" />
+                      No Live Link
+                    </div>
+                  )}
+
+                  {hasSourceLink ? (
+                    <a href={props.seesource} target="_blank" rel="noreferrer" className="btn btn-secondary">
+                      <i className="fab fa-github" />
+                      View Code
+                    </a>
+                  ) : (
+                    <div className="btn btn-disabled">
+                      <i className="fas fa-lock" />
+                      Private Repository
+                    </div>
+                  )}
+                </div>
+              </div>
             </div>
           </div>
         </div>

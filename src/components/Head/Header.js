@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import './Header.css';
-import logo from '../../assets/images/logo.png';
-import men from '../../assets/images/men.jpg';
+import logo from '../../assets/images/logo2.jpg';
+import men from '../../assets/images/logo2.jpg';
 
 const Header = () => {
   // scrolling header at the top of the page
@@ -24,7 +24,7 @@ const Header = () => {
                 </span>
                 <span className="sq sq-2" />
               </div>
-              <img src={logo} alt="Logo" data-aos="flip-up" className="logo" />
+              {/* <img src={logo} alt="Logo" data-aos="flip-up" className="logo" /> */}
             </a>
           </div>
           <div className="navlink">

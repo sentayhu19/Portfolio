@@ -9,6 +9,7 @@ import tailwind from '../../assets/images/tailwind.svg';
 import redux from '../../assets/images/redux.svg';
 import express from '../../assets/images/express.svg';
 import mongodb from '../../assets/images/mongodb.svg';
+import nextjs from '../../assets/images/next.avif';
 
 const Hero = () => (
   <>
@@ -34,7 +35,7 @@ const Hero = () => (
             </span>
           </h2>
           <p>
-            I am a software developer who builds web and mobile apps using React, Redux,ReactNative, NextJs, VueJS, and ExpressJS. I graduated from Unity University with a Bachelor of Science in Computer Science with Honors and from Microverse as a full-stack web developer. I have been working as a full-stack developer. I am passionate about building scalable web applications and I am always looking for new challenges.
+            I am a software developer with around 4 years of experience, specializing in building web and mobile applications using React, Redux, React Native, Next.js, Vue.js, and Express.js. I have worked on projects including e-commerce applications and video streaming platforms where doctors and patients can connect via video, phone, and chat. I am passionate about creating scalable web applications and am always eager to take on new challenges.
           </p>
           <div className="hero_btn d_flex d_flex_mob">
             <div className="col_1">
@@ -83,6 +84,9 @@ const Hero = () => (
                 </button>
                 <button title="MongoDB" type="button" className="btn_shadow">
                   <img src={mongodb} alt="skil" />
+                </button>
+                <button title="Next.js" type="button" className="btn_shadow">
+                  <img src={nextjs} alt="skil" />
                 </button>
               </div>
             </div>

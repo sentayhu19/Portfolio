@@ -50,8 +50,29 @@
   margin: 30px 0 30px 0;
 }
 
+.best-skill {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 12px;
+  max-width: 500px;
+}
+
 .hero_btn button {
-  margin-right: 49px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  padding: 12px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  min-width: 80px;
+}
+
+.hero_btn button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .hero_btn i {
@@ -111,12 +132,36 @@
   .welcome {
     padding-top: 100px;
   }
-  .best-skill{
+  .best-skill {
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 100%;
+  }
+  
+  .hero_btn button {
+    min-width: 70px;
+    min-height: 45px;
+    padding: 8px;
   }
   .d_flex_mob {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .best-skill {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  
+  .hero_btn button {
+    min-width: 60px;
+    min-height: 40px;
+    padding: 6px;
+  }
+  
+  .hero_btn button img {
+    height: 18px;
   }
 }
