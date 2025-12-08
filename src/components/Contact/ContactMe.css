@@ -1,3 +1,15 @@
+.Contact,
+.gradient__bg.Contact {
+  background-color: #000 !important;
+  background-image: none !important;
+  padding-top: 80px;
+  margin-top: 100px;
+}
+
+.gradient__bg {
+  background: none !important;
+}
+
 .Contact .left {
   width: 36%;
 }
@@ -37,6 +49,46 @@
 
 .Contact input {
   margin-top: 10px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 12px 15px;
+  color: #000;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.Contact input:focus {
+  outline: none;
+  border-color: #ff014f;
+  box-shadow: 0 0 10px rgba(255, 1, 79, 0.3);
+}
+
+.Contact input::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Contact textarea {
+  margin-top: 10px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 12px 15px;
+  color: #000;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  resize: vertical;
+  min-height: 120px;
+}
+
+.Contact textarea:focus {
+  outline: none;
+  border-color: #ff014f;
+  box-shadow: 0 0 10px rgba(255, 1, 79, 0.3);
+}
+
+.Contact textarea::placeholder {
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .Contact .right button {
