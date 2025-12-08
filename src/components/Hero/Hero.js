@@ -1,5 +1,7 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import './hero.css';
+import './Hero3D.css';
 import { Typewriter } from 'react-simple-typewriter';
 import javascript from '../../assets/images/javascript.svg';
 import react from '../../assets/images/react.png';
@@ -10,6 +12,7 @@ import redux from '../../assets/images/redux.svg';
 import express from '../../assets/images/express.svg';
 import mongodb from '../../assets/images/mongodb.svg';
 import nextjs from '../../assets/images/next.avif';
+import Hero3D from './Hero3D';
 
 const Hero = () => (
   <>
@@ -93,6 +96,8 @@ const Hero = () => (
           </div>
         </div>
 
+        {/* 3D Interactive Component - Desktop Only */}
+        <Hero3D />
       </div>
     </section>
   </>
