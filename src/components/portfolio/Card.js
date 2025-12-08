@@ -18,23 +18,49 @@ const Card = (props) => {
 
   return (
     <>
-      <div className="box btn_shadow width" data-aos="slide-up">
-        <div className="img">
-          <img src={props.image} alt="project screenshoot" onClick={toggleModal} />
+      <div className="modern-card" data-aos="slide-up" onClick={toggleModal}>
+        <div className="card-image-container">
+          <img src={props.image} alt="project screenshoot" className="card-image" />
+          <div className="card-overlay">
+            <button className="view-details-btn" onClick={(e) => { e.stopPropagation(); toggleModal(); }}>
+              <i className="fas fa-eye" />
+              View Details
+            </button>
+          </div>
         </div>
-        <div className="category d_flex flex-dir">
-          <span onClick={toggleModal}>{props.category}</span>
-          <label>
-            <i className="fa-solid fa-check" />
-            {' '}
-            {props.tech}
-          </label>
-        </div>
-        <div className="title">
-          <h2 onClick={toggleModal}>{props.title}</h2>
-          <a href="#popup" className="arrow" onClick={toggleModal}>
-            <i className="fas fa-arrow-right" />
-          </a>
+
+        <div className="card-content">
+          <div className="card-header">
+            <span className="card-category">{props.category}</span>
+            <div className="tech-badge">
+              <i className="fas fa-code" />
+              <span>{props.tech}</span>
+            </div>
+          </div>
+
+          <div className="card-title-section">
+            <h3 className="card-title">{props.title}</h3>
+            <button className="expand-btn" onClick={(e) => { e.stopPropagation(); toggleModal(); }}>
+              <i className="fas fa-expand-alt" />
+            </button>
+          </div>
+
+          <div className="card-footer">
+            <div className="project-links">
+              {hasLiveLink && (
+                <a href={props.seelive} target="_blank" rel="noreferrer" className="link-btn live-link" onClick={(e) => e.stopPropagation()}>
+                  <i className="fas fa-external-link-alt" />
+                  Live
+                </a>
+              )}
+              {hasSourceLink && (
+                <a href={props.seesource} target="_blank" rel="noreferrer" className="link-btn source-link" onClick={(e) => e.stopPropagation()}>
+                  <i className="fab fa-github" />
+                  Code
+                </a>
+              )}
+            </div>
+          </div>
         </div>
       </div>
 

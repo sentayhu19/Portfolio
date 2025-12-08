@@ -2,6 +2,265 @@
   position: relative;
 }
 
+/* ------------ Modern Card Styles -------- */
+.modern-card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  position: relative;
+  border: 1px solid #f0f0f0;
+  cursor: pointer;
+}
+
+.modern-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.card-image-container {
+  position: relative;
+  height: 240px;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.card-image-container:hover .card-image {
+  transform: scale(1.1);
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.7) 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.card-image-container:hover .card-overlay {
+  opacity: 1;
+}
+
+.view-details-btn {
+  background: #ff014f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.view-details-btn:hover {
+  background: #e6003d;
+  transform: translateY(-2px);
+}
+
+.card-content {
+  padding: 24px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.card-category {
+  color: #ff014f;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: rgba(255, 1, 79, 0.1);
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+.tech-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #f8f9fa;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  color: #666;
+  font-weight: 500;
+}
+
+.tech-badge i {
+  color: #ff014f;
+}
+
+.card-title-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+  line-height: 1.4;
+  transition: color 0.3s ease;
+  flex: 1;
+}
+
+.card-title:hover {
+  color: #ff014f;
+}
+
+.expand-btn {
+  background: #f8f9fa;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #666;
+  margin-left: 12px;
+}
+
+.expand-btn:hover {
+  background: #ff014f;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.card-footer {
+  border-top: 1px solid #f0f0f0;
+  padding-top: 16px;
+}
+
+.project-links {
+  display: flex;
+  gap: 8px;
+}
+
+.link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 12px;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.live-link {
+  background: #ff014f;
+  color: #fff;
+}
+
+.live-link:hover {
+  background: #e6003d;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 1, 79, 0.3);
+}
+
+.source-link {
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.source-link:hover {
+  background: #333;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design for Cards */
+@media (max-width: 768px) {
+  .modern-card {
+    margin-bottom: 20px;
+  }
+  
+  .card-image-container {
+    height: 200px;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .card-title-section {
+    align-items: center;
+  }
+  
+  .card-title {
+    font-size: 16px;
+  }
+  
+  .project-links {
+    flex-direction: column;
+  }
+  
+  .link-btn {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-image-container {
+    height: 180px;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-title {
+    font-size: 15px;
+  }
+  
+  .tech-badge {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+  
+  .card-category {
+    font-size: 11px;
+    padding: 3px 10px;
+  }
+}
+
+/* Legacy Styles - Keep for compatibility */
 .Portfolio .box {
   border-radius: 10px;
   position: relative;
