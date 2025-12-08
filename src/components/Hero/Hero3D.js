@@ -43,8 +43,11 @@ const Hero3D = () => {
         'Next.js',
         'Vue.js',
         'React Native',
+        'Node.js',
         'Express.js',
-        'PostgreSQL'
+        'PostgreSQL',
+        'MongoDB',
+        'SQLite'
     ];
 
     return (
@@ -104,7 +107,7 @@ const Hero3D = () => {
                         </div>
                         <div className="tech-label">Backend</div>
                         <div className="tech-list">
-                            {techStack.slice(3, 6).map((tech, index) => (
+                            {techStack.slice(4, 6).map((tech, index) => (
                                 <span key={tech} className="tech-item">
                                     {tech}
                                 </span>
@@ -134,7 +137,11 @@ const Hero3D = () => {
                         </div>
                         <div className="tech-label">Database</div>
                         <div className="tech-list">
-                            <span className="tech-item">PostgreSQL</span>
+                            {techStack.slice(6, 9).map((tech, index) => (
+                                <span key={tech} className="tech-item">
+                                    {tech}
+                                </span>
+                            ))}
                         </div>
                     </div>
                 </div>
